@@ -22,3 +22,6 @@ V3:
 
 Editado el código para obtener desde Redis los valores de usuario y pass.
 Editing code for obtain from Redis data.
+
+
+--------------------
