@@ -8,15 +8,12 @@ Intro: Hola, soy un estudiante de Sevilla, España, e intentaré compartir mi pr
 Requirements: File in /tmp/ named groupPass
 
 Requerimientos: Un archivo en /tmp/ llamado groupPass
----------------------------------
-V2:
 
-Editado el código para obtener desde un fichero el listado de passwords y validar desde él la coincidencia mail/pass
+V2:
 Code edited for obtain from password list and check mail (user) and pass.
----------------------------------
+Editado el código para obtener desde un fichero el listado de passwords y validar desde él la coincidencia mail/pass
 
 V3:
-
-Editado el código para obtener desde Redis los valores de usuario y pass.
 Editing code for obtain from Redis data.
----------------------------------
+Editado el código para obtener desde Redis los valores de usuario y pass.
+
