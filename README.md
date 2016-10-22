@@ -1,8 +1,16 @@
 # mailValidatorCGIPL
-A fast code for cgi aplication.
+
+
+
+
+
+
+Author: Héctor Ruiz
+Description: A fast code for cgi aplication.
 --------------------------------
-Intro: Hi, i'm student from Seville, Spain, and i'll try to share my first project: A CGI-Perl app that validates an email string.
-Intro: Hola, soy un estudiante de Sevilla, España, e intentaré compartir mi primer proyecto: Una aplicación CGI-Perl que valide un correo electrónico.
+Intro: Hi, i'm student from Seville, Spain, and i'll try to share my first project: A CGI-Perl app that validates an email string. If you find any problems with the use or possible updates for code, please, contact me: ruizvirostah@gmail.com
+
+Intro: Hola, soy un estudiante de Sevilla, España, e intentaré compartir mi primer proyecto: Una aplicación CGI-Perl que valide un correo electrónico. Si encuentras algún problema con el uso o posibles actualizaciones para el código, por favor, contáctame: ruizvirostah@gmail.com
 
 Requirements: File in /tmp/ named groupPass.
 
@@ -29,3 +37,4 @@ Requirements:
 Requerimientos: 
 - Instalar modulo CGI (cpan -i Redis)
 - Crea en Redis clave y valor (con el usuario y la password a probar).
+
