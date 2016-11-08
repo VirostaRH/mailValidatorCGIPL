@@ -37,19 +37,29 @@ if ($query->param('the_password'))
 				{
 				  $passOk = 1;
 				}
-			}
+                                else {
+                                  $notPasswd="Password Incorrecta";
+                                }
+		}
+                else {
+                    $notValidate="nombre de Usuario no cumple pattern";
+                }
 		
 	#Primera fase completada, validar correo y pass.
 		if($passOk) {
 		   print $query->h1('Usuario:',$correo);
-		   print $query->p('Contraseña correcta');
+		   print $query->p('Password correcta');
 		   
 		}
 		else
 		{
 		   print $query->h1('Usuario:',$correo);
-		   print $query->h3('Error, el usuario o contraseña no son correctos.');
+		  # print $query->h3('Error, el usuario o contraseña no son correctos.');
+                   print $query->h3($notValidate) if($notValida);
+                   print $query->h3($notPasswd) if ($notPasswd);
 		}
 }
-
+if (!$query->param('the_password') and $query->param('mail')) {
+         print $query->h3('Debe rellenar el segundo campo');
+}
 print $query->end_html;

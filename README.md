@@ -31,10 +31,10 @@ Editing code for obtain from Redis data.
 Editado el código para obtener desde Redis los valores de usuario y pass.
 
 Requirements: 
-- Install CGI module (cpan -i Redis)
+- Install Redis module (cpan -i Redis)
 - Create in Redis Key and Value (with user and pass to probe).
 
 Requerimientos: 
-- Instalar modulo CGI (cpan -i Redis)
+- Instalar modulo Redis (cpan -i Redis)
 - Crea en Redis clave y valor (con el usuario y la password a probar).
 
